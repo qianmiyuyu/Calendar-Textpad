@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActionBarView">
+        <attr name="background_color" format="color"/>
+        <attr name="txt_color" format="color"/>
+        <attr name="title_size" format="integer"/>
+        <attr name="txt_size" format="integer"/>
+    </declare-styleable>
+</resources>

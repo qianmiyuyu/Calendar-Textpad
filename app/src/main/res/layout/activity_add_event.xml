@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.calendertest.ActionBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action_barview"
+    app:background_color="@color/colorAccent"
+    app:txt_color="@android:color/white"
+    app:title_size="20"
+    app:txt_size="14"
+    tools:context="com.example.calendertest.AddEvent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+    <EditText
+        android:id="@+id/EventContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_barview"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:theme="@style/MyEditText"
+        android:hint="内容"/>
+    </LinearLayout>
+</com.example.calendertest.ActionBarView>
